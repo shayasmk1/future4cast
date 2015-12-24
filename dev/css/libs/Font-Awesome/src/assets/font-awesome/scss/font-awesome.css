@@ -1,0 +1,51 @@
+/*
+Error: Invalid CSS after "...e/license.css %": expected "{", was "}"
+        on line 3 of /var/www/html/begoo/scss/libs/Font-Awesome/src/assets/font-awesome/scss/font-awesome.scss
+
+1: ---
+2: ---
+3: {% include code/license.css %}
+4: 
+5: @import "variables";
+6: @import "mixins";
+7: @import "path";
+8: @import "core";
+
+Backtrace:
+/var/www/html/begoo/scss/libs/Font-Awesome/src/assets/font-awesome/scss/font-awesome.scss:3
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/home/hafeez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...e/license.css %\": expected \"{\", was \"}\"\A         on line 3 of /var/www/html/begoo/scss/libs/Font-Awesome/src/assets/font-awesome/scss/font-awesome.scss\A \A 1: ---\A 2: ---\A 3: {% include code/license.css %}\A 4: \A 5: @import \"variables\";\A 6: @import \"mixins\";\A 7: @import \"path\";\A 8: @import \"core\";"; }

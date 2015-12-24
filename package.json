@@ -1,0 +1,35 @@
+{
+  "name": "ProjectBegoo",
+  "version": "0.0.1",
+  "description": "Social Networking site like facebook",
+  "main": "public/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hafeez1042/begoo.git"
+  },
+  "keywords": [
+    "begoo",
+    "socialnetwork"
+  ],
+  "author": "Hafeez Hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafeez1042/begoo/issues"
+  },
+  "homepage": "https://github.com/hafeez1042/begoo",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

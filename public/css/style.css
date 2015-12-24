@@ -1,0 +1,138 @@
+@media (min-width: 1200px){
+    .container {
+        width: 900px !important;
+    }
+}
+
+.register-form-margin, .login-form-margin{
+    margin-top : 20px;
+}
+
+.welcome-box{
+    color : blue;
+}
+
+#new_forum span
+{
+    font-weight: bold;
+    font-size : 16px;
+    
+}
+
+.url-text-radio
+{
+    padding-left : 10px;
+}
+
+.error{
+    color : red !important;
+}
+
+.image-area
+{
+    background-size : contain;
+    height : 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+#custom-search-input {
+        margin:0;
+        
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 0px;
+        margin-top: 2px;
+        position: relative;
+        left: -27px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#B9B9B9;
+        z-index: 100000;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+    
+    
+    #loginModal{
+        margin-top : 50px;
+    }
+    
+    .v-category-tech:hover{
+        color : green !important;
+        border-bottom :3px solid green !important;;
+    }
+    
+    .page-heading{
+        padding-bottom : 20px !important;
+        padding-left : 20px;
+        border-radius : 3px;
+        padding-top: 8px;
+        
+    }
+    .page-heading span{
+        border-bottom: 2px solid red;
+        padding-bottom :15px;
+    }
+    
+    .about-content{
+        font-size : 20px;
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 40px;
+    }
+    
+    .top-margin
+    {
+        margin-top : 20px;
+    }
+    #bs-example-navbar-collapse-1
+    {
+      //  width : 81% !important;
+    }
+    
+    .form-search-container{
+        width : 30% !important;
+    }
+    
+    @media screen and (max-width: 800px) {
+        #bs-example-navbar-collapse-1
+        {
+            padding-top : 40px !important;
+        }
+        .form-search-container{
+        width : auto !important;
+    }
+    }
+    
+    .container
+    {
+        min-width : 0px !important;
+    }
+    
+    

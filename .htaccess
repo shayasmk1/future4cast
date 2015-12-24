@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(dev.)?forum.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /public/$1
+RewriteCond %{HTTP_HOST} ^(dev.)?forum.com$ [NC]
+RewriteRule ^(/)?$ public/index.php [L]

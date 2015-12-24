@@ -1,0 +1,29 @@
+{
+    "name": "Begoo",
+    "type": "project",
+    "description": "Social Netwoking Application",
+    "keywords": "",
+    "homepage": "",
+    "license": "Privat",
+    "authors": [
+        {
+            "name": "Hafeez Hamza",
+            "role": "Developer"
+        },
+        {
+            "name": "Shayas MK",
+            "role": "Developer"
+        },
+        {
+            "name": "Sean Ivan",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "",
+        "source": ""
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

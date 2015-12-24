@@ -1,0 +1,360 @@
+
+body { 
+//color: #303030; 
+background:#fff url(images/bg.gif) repeat-x; 
+font: .72em Arial, Verdana, sans-serif; 
+text-align: center; 
+line-height: 1.6em; 
+margin: 0 auto; 
+}
+
+/* --------------All The Pretty Things------------------------------*/
+
+a { 
+color: #01492a;
+font-weight:bold;
+text-decoration:none; 
+background: inherit; 
+}
+
+a:hover { 
+color: #000; 
+background: inherit;
+}
+
+h2 {
+font-size: 1.1em;
+margin-left: 4px;
+color: #5e5e5e;
+text-transform:uppercase; 
+}
+
+ul { 
+margin: .6em 0; 
+padding: 0;
+}
+
+.highlight {
+color: #1f5301;
+font-size:14px;
+font-weight: bolder;
+}
+
+.highlighttwo {
+color: #3c7c1d;
+font-size:16px;
+font-weight: bolder;
+}
+
+.image {
+float: left;
+clear: left;
+background: #eee;
+color: #000;
+margin: 0 12px 10px 0;
+}
+
+.big { 
+float:left; 
+color:#5e5e5e; 
+font-size:50px; 
+line-height:30px; 
+padding: 4px 4px; 
+font-family: "Times New Roman", times, Sans-Sherif; 
+background:inherit; 
+} 
+
+/* --------------The Main Content------------------------------*/
+
+#wrapper { 
+width: 100%; 
+background-color: #f3f3f3; 
+margin: 0 auto;
+padding:4px; 
+text-align: left;
+//border-left: 1px solid #666;
+//border-right: 1px solid #666; 
+//color : #EFFBFB;
+}
+
+#header-{ 
+width: 850px;
+height: 50px; 
+margin: 0 0 4px 0;
+background:url(images/header.jpg) no-repeat;
+border-bottom: 1px dotted #DCDBD5;
+
+}
+
+#header-h1 {
+float: left;
+color: #fff;
+margin: 15px 0 0 55px;
+padding: 0;
+font-size: 1.6em;
+}
+
+#pic{
+margin-bottom: 6px;
+width: 850px;
+height: 250px;
+background:#fff url(images/pic.jpg) no-repeat;
+}
+
+#quote {
+float: right;
+margin: 4px 22px 8px 8px;
+color: white;
+font: 17px  Georgia, "Times New Roman", Times, serif;
+}
+
+/* -----BOTH MENUES START HERE------------------------------*/
+
+/* --------------Top Left Vertical Menu------------------------------*/
+
+#leftmenu {
+position: relative;
+width: 300px;
+height: 250px;
+float: left;
+clear:both;
+}
+
+#nav {
+width: 300px;
+padding: 0;
+margin-bottom: 0px;
+font-size: 10px;
+font-family: Verdana;
+color: #333;
+}
+
+#nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+#nav li {
+border-bottom: 1px solid #fff;
+margin: 0;
+width: auto;
+}
+
+#nav li a {
+display: block;
+padding: 3px 0px 2px 15px;
+color: #fff;
+text-transform:uppercase;
+font-weight:bold;
+text-decoration: none;
+width: auto;
+background:#5e5e5e url(images/menuarrow.gif) no-repeat center left;
+}
+
+#nav li a:hover {
+color: #fff;
+padding: 3px 0px 2px 30px;
+background: #999 url(images/menuarrowhover.gif) no-repeat center left;;
+font-weight:bold;
+}
+
+/* --------------Horizontal Menu Starts Here------------------------------*/
+
+			
+#menu { 
+clear: both; 
+margin: 0 0 10px 0; 
+padding: 7px 0 7px 10px; 
+border-top: 1px dotted #DCDBD5;
+}
+
+#menu li { 
+display: inline; 
+}
+
+#menu a { 
+padding: 3px 3px; 
+margin: 0 3px 0 3px; 
+text-decoration: none; 
+color: #5e5e5e;
+font-weight: bold; 
+border-bottom: 4px solid #5e5e5e; 
+}
+
+#menu a:hover { 
+border-bottom: 4px solid #01492a; 
+color: #444;
+}
+
+/* --------------The Meat And Potatoes------------------------------*/
+
+.clear {	
+clear: both; 
+margin: 0 0 2px 0; 
+}
+
+.box {
+float: left;
+width: 30%;
+margin: 2px 0 0 14px;
+background: #fff;
+color: #303030;
+padding: 2px 2px 0 4px;
+border: #eee 1px solid;
+}
+	
+.box h1 {
+margin: 2px 0;
+padding: 0;
+color: #5e5e5e;
+background: inherit;
+font-size: 1.1em;
+text-transform:uppercase;
+}
+		
+.contentbox {
+float: left;
+width: 47%;
+margin: 7px 7px;
+background: #fff;
+color: #303030;
+border: #eee 1px solid;
+padding: 4px 4px;
+}
+
+.link { 
+border-top: 1px solid #eee; 
+padding: 2px 0;
+}
+			
+.data { 
+background: #fff; 
+color: #808080; 
+padding: 2px 5px; 
+margin: 8px 8px;
+border: #eee 1px solid;
+}
+
+#resources {
+clear: both;
+background: #fff;
+padding: 5px 5px;
+margin: 0 0 5px 0;
+color: #000;
+}
+
+
+.resources {
+float: left;
+margin: 2px 0 0 12px;
+width: 28%;
+padding: 0 0px 0 25px;
+border: #eee 1px solid;
+}		
+
+#footer { 
+margin: 20px 10px; 
+text-align: center; 
+}
+
+body
+{
+    background-color : grey;
+   // color : #EFFBFB !important;
+}
+
+.head-h1
+{
+   // color : white;
+    padding-left : 5px;
+}
+
+.hcenter
+{
+    text-align : center;
+}
+
+.header-space
+{
+    height : 250px;
+    font-weight: bold;
+    font-size:38px;
+    position : relative;
+}
+
+.header-space-div
+{
+    position : absolute;
+    top:50%;
+}
+
+#header
+{
+    padding-bottom :10px;
+}
+
+.form-horizontal h3
+{
+    text-align: right;
+}
+
+.form-horizontal label
+{
+    margin-bottom: 5px !important;
+}
+
+.control-label
+{
+    font-size : 14px !important;
+}
+
+.latest-trolls-section
+{
+    text-align: left !important;
+}
+.latest-trolls-section .border
+{
+    margin-bottom :10px;
+}
+.border
+{
+    border : 1px solid gray;
+}
+
+.no-padding
+{
+    padding : 0px !important;
+}
+
+.padding-over-left
+{
+    padding-left : 10px;
+}
+
+.blue-color{
+    color :#3B6FC3;
+}
+
+.left-align{
+    text-align : left;
+}
+
+.f-title{
+    font-size :12px !important;
+    color : #3B6BBD;
+    font-weight : bold;
+}
+
+.f-facebook{
+    font-size :12px !important;
+}
+
+.f-description{
+    font-size :12px !important;
+    margin-top : 10px;
+}
+
+
+
